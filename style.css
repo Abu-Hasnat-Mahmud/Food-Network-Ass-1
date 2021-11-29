@@ -1,0 +1,104 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+   margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+.color-ash{
+    color: rgba(143, 128, 128, 0.922);
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.tomato-color{
+    color: tomato;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    align-self: center;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.link-button{
+    text-decoration: none;
+    font-weight: 700;    
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.about-section{
+    background-image: url(images/about-banner.png);
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+.about-section img{
+    width:60%;
+}
+.text-center{
+    text-align:center;
+}
+
+.felexible-receipie{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.receipie-item{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(211, 198, 198);
+    margin: 30px;
+    padding: 15px;
+}
+
+.receipie-item img{
+    height: 50%;
+    width: 100%;
+}
+
+#address-section{
+    margin: 50px;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 10px 10px 15px rgb(211, 198, 198);
+}
+
+#social-contrainer{
+    margin: 50px;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 10px 10px 15px rgb(211, 198, 198);
+}
+.social-item{
+    margin:auto;
+    padding: 10px;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
